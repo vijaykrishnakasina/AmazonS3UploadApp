@@ -1,4 +1,4 @@
-package org.jcg.springboot.aws.s3.config;
+package crossover.springboot.aws.s3.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 
 @Configuration
-public class AWSS3Config {
+public class CrossOverAWSS3Config {
 
 	@Value("${aws.access_key_id}")
 	private String accessKeyId;
